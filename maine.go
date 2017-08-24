@@ -11,7 +11,7 @@ package main
 
 //для проекта использовалось апи http://fixer.io/
 
-//поддерживаемые валюты: "AUD", "BGN","BRL","CAD","CHF","CNY","CZK","DKK", "GBP","HKD" ,"HRK","HUF","IDR",
+//поддерживаемые валюты: "AUD", "BGN","BRL","CAD","CHF","CNY","CZK","DKK", "GBP","
 // "ILS", "INR", "JPY","KRW","MXN","MYR","NOK","NZD","PHP","PLN","RON","SEK","SGD","THB","TRY","USD","ZAR"
 
 import (
@@ -35,7 +35,7 @@ type FixerResponse struct {
 	_ string
 	Rates map[string]float64 `json:"rates"`
 }
-pus
+
 func main() {
 
 	app := cli.NewApp()
